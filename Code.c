@@ -32,16 +32,17 @@ int main()
             scanf("%f", &num2);
         }
         
-
-        // switch (op)
-        // {
-        // case constant expression:
-        //     /* code */
-        //     break;
+        //Calculations
+        switch (op)
+        {
+        case '+': case '-': case '*': case '/':
+            basic_operation(num1, num2, op);
+            break;
         
-        // default:
-        //     break;
-        // }
+        default:
+            printf("Error: Unknown operator '%c'\n", op);
+            break;
+        }
         
     } while (1);
     

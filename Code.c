@@ -22,6 +22,21 @@ int main()
             printf("ERROR OCCURED");
             return 1;
         }
+
+        //Read operants
+        scanf(" %c", &op);
+
+        // //
+
+        // switch (op)
+        // {
+        // case constant expression:
+        //     /* code */
+        //     break;
+        
+        // default:
+        //     break;
+        // }
         
     } while (1);
     

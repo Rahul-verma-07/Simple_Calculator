@@ -23,10 +23,15 @@ int main()
             return 1;
         }
 
-        //Read operants
+        //Read operations
         scanf(" %c", &op);
 
-        // //
+        //Read second operant
+        if (op != 's' && op != 'c')
+        {
+            scanf("%f", &num2);
+        }
+        
 
         // switch (op)
         // {

@@ -4,12 +4,26 @@
 
 int main()
 {
-    float n1, n2;
+    float num1, num2;
     char op, again;
     
     printf("\n=== SIMPLE CALCULATOR ===\n");
     printf("Operations: +  -  *  /  ^  s(sqrt)  c(cbrt)\n");
     printf("Examples:  3+4   |   2^5   |   25s  |   125c\n\n");
 
+    do
+    {
+        printf("Enter your Expression:  ");
+
+        //Read first number
+        if (scanf("%f", &num1) != 1)
+        {
+            printf("Invalid Input!\n");
+            printf("ERROR OCCURED");
+            return 1;
+        }
+        
+    } while (1);
+    
     return 0;
 }

@@ -42,6 +42,14 @@ int main()
         case '^':
             exponential_power(num1, num2);
             break;
+
+        case 's':
+            sqaure_root(num1, op);
+            break;
+
+        // case 'c':
+        //     sqaure_root(num1, op);
+        //     break;
         
         default:
             printf("Error: Unknown operator '%c'\n", op);

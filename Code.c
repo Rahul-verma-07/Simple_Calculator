@@ -2,6 +2,8 @@
 #include <math.h>
 #include <ctype.h>
 
+void basic_operation(float n1, float n2, char op);
+
 int main()
 {
     float num1, num2;

@@ -55,7 +55,19 @@ int main()
             printf("Error: Unknown operator '%c'\n", op);
             break;
         }
+
+        printf("Do you want to exit (y/n): ");
+        scanf(" %c",&again);
+        again = towlower(again);
+
+        if (again != 'y' && again != 'n')
+        {
+            printf("Invalid Input! Exiting...\n");
+            return 1;
+        }
         
+        printf("\n");
+
     } while (1);
     
     return 0;

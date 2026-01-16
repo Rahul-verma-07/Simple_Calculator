@@ -75,9 +75,7 @@ int main()
 
         printf("\n");
 
-    } while (1);
-
-    printf("Goodbye..!\n");
+    } while (again != 'y');
     
     printf("Goodbye..!\n");
     return 0;

@@ -4,7 +4,6 @@
 
 void basic_operation(float n1, float n2, char op);
 void exponential_power(float n1, float n2);
-void sqaure_root(float n1, char op);
 void handle_root(float n1, char op);
 
 int main()

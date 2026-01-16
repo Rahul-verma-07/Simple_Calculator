@@ -70,5 +70,6 @@ int main()
 
     } while (1);
     
+    printf("Goodbye!\n");
     return 0;
 }

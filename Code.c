@@ -47,9 +47,9 @@ int main()
             sqaure_root(num1, op);
             break;
 
-        // case 'c':
-        //     sqaure_root(num1, op);
-        //     break;
+        case 'c':
+            sqaure_root(num1, op);
+            break;
         
         default:
             printf("Error: Unknown operator '%c'\n", op);

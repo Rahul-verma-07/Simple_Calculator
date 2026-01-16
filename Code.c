@@ -38,6 +38,10 @@ int main()
         case '+': case '-': case '*': case '/':
             basic_operation(num1, num2, op);
             break;
+
+        case '^':
+            exponential_power(num1, num2);
+            break;
         
         default:
             printf("Error: Unknown operator '%c'\n", op);

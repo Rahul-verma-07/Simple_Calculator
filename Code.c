@@ -50,13 +50,13 @@ int main()
             exponential_power(num1, num2);
             break;
 
-        case 's':
-            handle_root(num1, op);
-            break;
+        // case 's':
+        //     handle_root(num1, op);
+        //     break;
 
-        case 'c':
-            handle_root(num1, op);
-            break;
+        // case 'c':
+        //     handle_root(num1, op);
+        //     break;
 
         default:
             printf("Error: Unknown operator '%c'\n", op);
@@ -108,4 +108,9 @@ void basic_operation(float n1, float n2, char op)
     }
 
     printf("%g %c %g = %g", n1, op, n2, result);
+}
+
+void exponential_power(float n1, float n2)
+{
+    printf("%g ^ %g = %g", n1, n2, pow(n1, n2));
 }

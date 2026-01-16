@@ -51,11 +51,11 @@ int main()
             break;
 
         case 's':
-            handle_root(num1, op);
+            handle_root(num1, 's');
             break;
 
         case 'c':
-            handle_root(num1, op);
+            handle_root(num1, 'c');
             break;
 
         default:
@@ -65,7 +65,7 @@ int main()
 
         printf("\nDo you want to exit (y/n): ");
         scanf(" %c", &again);
-        again = towlower(again);
+        again = tolower(again);
 
         if (again != 'y' && again != 'n')
         {

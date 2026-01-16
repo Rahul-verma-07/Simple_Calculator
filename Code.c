@@ -4,7 +4,7 @@
 
 void basic_operation(float n1, float n2, char op);
 void exponential_power(float n1, float n2);
-//void sqaure_root(float n1, char op);
+void handle_root(float n1, char op);
 
 int main()
 {
@@ -48,11 +48,11 @@ int main()
             break;
 
         case 's':
-            sqaure_root(num1, op);
+            handle_root(num1, op);
             break;
 
         case 'c':
-            sqaure_root(num1, op);
+            handle_root(num1, op);
             break;
         
         default:
